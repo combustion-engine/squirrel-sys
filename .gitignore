@@ -4,3 +4,10 @@ lib/
 
 # Folders created at documentation generation
 doc/
+
+target
+.idea/
+bindings_doc
+*.iml
+Cargo.lock
+.DS_Store
