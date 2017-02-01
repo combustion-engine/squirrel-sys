@@ -1,0 +1,15 @@
+[package]
+authors = ["Aaron Trent <novacrazy@gmail.com>"]
+build = "build.rs"
+description = "Squirrel scripting language"
+links = "squirrel"
+name = "squirrel-sys"
+readme = "README.md"
+version = "3.1.0"
+
+[build-dependencies]
+cmake = "^0.1"
+
+[lib]
+name = "squirrel_sys"
+path = "lib.rs"
